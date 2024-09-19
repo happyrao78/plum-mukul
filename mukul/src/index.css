@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Chromatica';
+  src: url('./assets/font/Chromatica-Thin.woff2') format('woff2'),
+      url('./assets/font/Chromatica-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+    @apply font-sans text-base font-normal text-center;
+  }

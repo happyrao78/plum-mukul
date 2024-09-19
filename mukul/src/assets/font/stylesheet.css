@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Black.eot');
+    src: local('Chromatica Black'), local('Chromatica-Black'),
+        url('Chromatica-Black.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Black.woff2') format('woff2'),
+        url('Chromatica-Black.woff') format('woff'),
+        url('Chromatica-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Thin.eot');
+    src: local('Chromatica Thin'), local('Chromatica-Thin'),
+        url('Chromatica-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Thin.woff2') format('woff2'),
+        url('Chromatica-Thin.woff') format('woff'),
+        url('Chromatica-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Medium.eot');
+    src: local('Chromatica Medium'), local('Chromatica-Medium'),
+        url('Chromatica-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Medium.woff2') format('woff2'),
+        url('Chromatica-Medium.woff') format('woff'),
+        url('Chromatica-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Regular.eot');
+    src: local('Chromatica Regular'), local('Chromatica-Regular'),
+        url('Chromatica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Regular.woff2') format('woff2'),
+        url('Chromatica-Regular.woff') format('woff'),
+        url('Chromatica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Bold.eot');
+    src: local('Chromatica Bold'), local('Chromatica-Bold'),
+        url('Chromatica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Bold.woff2') format('woff2'),
+        url('Chromatica-Bold.woff') format('woff'),
+        url('Chromatica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chromatica';
+    src: url('Chromatica-Light.eot');
+    src: local('Chromatica Light'), local('Chromatica-Light'),
+        url('Chromatica-Light.eot?#iefix') format('embedded-opentype'),
+        url('Chromatica-Light.woff2') format('woff2'),
+        url('Chromatica-Light.woff') format('woff'),
+        url('Chromatica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
