@@ -1,0 +1,111 @@
+/* Ensure you add the Chromatic font in your index.html or via a font service */
+@import url('https://fonts.googleapis.com/css2?family=Chromatic:wght@400;700&display=swap');
+
+.text-animation-container {
+  font-family: 'Chromatic', sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
+}
+
+.text-wrapper {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border color for visibility */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  padding: 10px;
+  max-width: 800px; /* Fixed width */
+  width: 500px; /* Ensure it fills the container up to max-width */
+  max-height: 800px; /* Fixed height */
+  height: 200px;
+  overflow: hidden; /* Hide overflow if content exceeds container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-effect {
+  white-space: nowrap;
+  border-right: 2px solid;
+  padding-right: 5px;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from { border-color: transparent; }
+  to { border-color: white; }
+}
+
+.revealed-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.revealed-text .changing-word {
+  display: inline-block;
+  opacity: 0;
+  margin: 0 5px; /* Adjust spacing between words */
+}
+
+.revealed-text .fixed-text {
+  display: inline-block;
+  margin: 0 5px; /* Ensure proper spacing */
+}
+
+.blinking-text {
+  font-size: 24px;
+  text-align: center;
+  /* font-weight: bold; */
+  /* margin-top: 20px; */
+}
+
+.blinking-text span {
+  display: inline-block;
+}
+
+.final-step {
+  /* margin-top: 20px; */
+}
+
+.play-game-btn {
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #ff4052;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+.text-animation-container {
+    position: relative;
+    z-index: 10;
+    height: 30vh;
+    margin-top: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    overflow: hidden;
+   
+}
+
+.text-wrapper {
+    z-index: 10; /* Ensures text is above the background image */
+    /* margin-left: 50px; */
+    background:linear-gradient(180deg, #1D0716 61.62%, #360828 112.03%)
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    object-fit: cover;
+}
+
+

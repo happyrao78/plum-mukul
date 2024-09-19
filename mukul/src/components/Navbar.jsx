@@ -3,9 +3,9 @@ import Logo from '../assets/logo.png'; // Importing the logo image from the asse
 
 function Navbar() {
     return (
-        <nav className="flex justify-between items-center py-4 px-8  text-white">
+        <nav className="flex justify-between items-center py-4 px-8  text-white z-20 relative w-full">
             {/* Left Side - Logo */}
-            <div className="text-4xl font-bold text-pink-500 ml-10 ">
+            <div className="text-4xl font-bold text-pink-500 ml-20 w-auto ">
                 <img src={Logo} alt="Logo" className="w-32 h-16 inline" />
             </div>
 
